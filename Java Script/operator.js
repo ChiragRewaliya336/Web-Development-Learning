@@ -28,3 +28,31 @@ console.log( NaN +1); */
 // console.log(name[100]);
 // console.log(name.length);
 
+//Comparision Operator:
+// let age =28;
+// console.log(age>18);
+// console.log(age<18);
+// console.log(a==b);
+// console.log(a!=b);
+// let c ='5';
+// console.log(b==c);
+// console.log(b===c);
+// console.log('a'>'A');
+// console.log('a'<'A');
+// console.log('a'<'b');
+
+//Logical operator
+// true && true
+// true
+// true && false
+// false
+// true || true
+// true
+// true|| false
+// true
+// false || false
+// false
+ let marks =75;
+ if(marks>33 && marks<=80 || !false){
+    console.log("pass");
+}
