@@ -58,5 +58,26 @@ for(links of links){
 // Navigate means wanna transfer from one element to another element:
 let h4 = document.querySelector('h4');
 console.log(h4.parentElement);
-let box = document.querySelector
+// let box = document.querySelector
 // console.log(box.);
+let newp = document.createElement('p');
+console.dir(newp);
+newp.innerText = "Hi Chirag";
+let body = document.querySelector('body'); // for adding this element to the body in parenthesis you enter the parent of it
+body.appendChild(newp);
+newp.append("This is new text"); //used to adding extra thing into exitsing or can be modify.
+let box = document.querySelector('.box');
+let btn = document.createElement('button');
+btn.innerText="Click me";
+box.appendChild(btn);
+ 
+// Here is the new function that is prepend how it is different from the append the append add the thing at the last but the prepand add the thing a the starting of the elmenets 
+box.prepend(newp);
+
+// Now here is new form this function we can add the thing acc to our requirment let us describe this :
+let p = document.querySelector('p');
+p.insertAdjacentElement('beforebegin',btn);
+
+// To remove the remoe function is used
+body.removeChild(btn);
+
